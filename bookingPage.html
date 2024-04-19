@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Styles/bookingStyle.css">
+  <link rel="icon" href="Assets/BookingAssets/TabIcon.svg">
+  <title>Book your seats</title>
+</head>
+
+<body>
+  <header>
+    <p>Millenium Cinmea</p>
+    <nav>
+      <ul>
+        <li><a href="schedulePage.html">Schedule</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#Location">Location</a></li>
+        <li><a href="#Contacts">Contact</a></li>
+        <li> <button class="signInButton">Sign In</button></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+
+    <section class="movieTimeSchedule">
+      <aside class="movie">
+        <figure>
+          <img src="Assets/BookingAssets/Poster.jpg" alt="" sizes="" srcset="">
+        </figure>
+        <div class="movieDetails">
+          <div class="movieSpecification">
+            <div class="movieName">Movie</div>
+            <div class="duration">Duration</div>
+            <div class="genre">genre</div>
+          </div>
+        </div>
+      </aside>
+      <div class="movieTimeTable">
+        <div class="schedule">
+          <div class="movieName">Movie Name</div>
+          <div class="time">Time</div>
+          <div class="type">2D/3D</div>
+          <div class="cinemaHall">Cinema Hall</div>
+        </div>
+        <div class="schedule">
+          <div class="movieName">Movie Name</div>
+          <div class="time">Time</div>
+          <div class="type">2D/3D</div>
+          <div class="cinemaHall">Cinema Hall</div>
+        </div>
+        <div class="schedule">
+          <div class="movieName">Movie Name</div>
+          <div class="time">Time</div>
+          <div class="type">2D/3D</div>
+          <div class="cinemaHall">Cinema Hall</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="seatArrangement">
+      <h1>Seat Arrangement</h1>
+
+      <div class="seatArrangementTable">
+        <div class="seats">
+          <div class="leftSide">
+            <img src="Assets/event_seat_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+            <label for="s1" class="seatBooked"></label>
+          </div>
+          <div class="middleSide">
+            <img src="Assets/event_seat_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+            <label for="s1" class="seatBooked"></label>
+          </div>
+          <div class="rightSide">
+            <img src="Assets/event_seat_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+            <label for="s1" class="seatBooked"></label>
+          </div>
+        </div>
+  
+        <div class="status">
+          <p class="errorText"></p>
+          <div class="item">
+            <svg class="statusAvailable" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"><path d="M160-120v-220h640v220h-60v-160H220v160h-60Zm9.882-290Q149-410 134.5-424.618q-14.5-14.617-14.5-35.5Q120-481 134.618-495.5q14.617-14.5 35.5-14.5Q191-510 205.5-495.382q14.5 14.617 14.5 35.5Q220-439 205.382-424.5q-14.617 14.5-35.5 14.5ZM280-400v-380q0-24.75 17.625-42.375T340-840h280q24.75 0 42.375 17.625T680-780v380H280Zm509.882-10Q769-410 754.5-424.618q-14.5-14.617-14.5-35.5Q740-481 754.618-495.5q14.617-14.5 35.5-14.5Q811-510 825.5-495.382q14.5 14.617 14.5 35.5Q840-439 825.382-424.5q-14.617 14.5-35.5 14.5ZM340-460h280v-320H340v320Zm0 0h280-280Z"/></svg>
+            <p>Available</p>
+          </div>
+          <div class="item">
+            <svg class="statusBooked" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"><path d="M160-120v-220h640v220h-60v-160H220v160h-60Zm9.882-290Q149-410 134.5-424.618q-14.5-14.617-14.5-35.5Q120-481 134.618-495.5q14.617-14.5 35.5-14.5Q191-510 205.5-495.382q14.5 14.617 14.5 35.5Q220-439 205.382-424.5q-14.617 14.5-35.5 14.5ZM280-400v-380q0-24.75 17.625-42.375T340-840h280q24.75 0 42.375 17.625T680-780v380H280Zm509.882-10Q769-410 754.5-424.618q-14.5-14.617-14.5-35.5Q740-481 754.618-495.5q14.617-14.5 35.5-14.5Q811-510 825.5-495.382q14.5 14.617 14.5 35.5Q840-439 825.382-424.5q-14.617 14.5-35.5 14.5ZM340-460h280v-320H340v320Zm0 0h280-280Z"/></svg>
+            <p>Reserved</p>
+          </div>
+          <div class="item">
+            <svg class="statusSelect" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"><path d="M160-120v-220h640v220h-60v-160H220v160h-60Zm9.882-290Q149-410 134.5-424.618q-14.5-14.617-14.5-35.5Q120-481 134.618-495.5q14.617-14.5 35.5-14.5Q191-510 205.5-495.382q14.5 14.617 14.5 35.5Q220-439 205.382-424.5q-14.617 14.5-35.5 14.5ZM280-400v-380q0-24.75 17.625-42.375T340-840h280q24.75 0 42.375 17.625T680-780v380H280Zm509.882-10Q769-410 754.5-424.618q-14.5-14.617-14.5-35.5Q740-481 754.618-495.5q14.617-14.5 35.5-14.5Q811-510 825.5-495.382q14.5 14.617 14.5 35.5Q840-439 825.382-424.5q-14.617 14.5-35.5 14.5ZM340-460h280v-320H340v320Zm0 0h280-280Z"/></svg>
+            <p>Selected by you</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="buyingTickets">
+          <div class="booking">
+            <div class="movieName">Movie Name</div>
+            <div class="time">Time</div>
+            <div class="type">2D/3D</div>
+            <div class="cinemaHall">Cinema Hall</div>
+            <div class="seatNumber">E7</div>
+            <div class="seatPrice">180Br.</div>
+          </div>
+          <div class="booking">
+            <div class="movieName">Movie Name</div>
+            <div class="time">Time</div>
+            <div class="type">2D/3D</div>
+            <div class="cinemaHall">Cinema Hall</div>
+            <div class="seatNumber">E7</div>
+            <div class="seatPrice">180Br.</div>
+          </div>
+          <div class="booking">
+            <div class="movieName">Movie Name</div>
+            <div class="time">Time</div>
+            <div class="type">2D/3D</div>
+            <div class="cinemaHall">Cinema Hall</div>
+            <div class="seatNumber">E7</div>
+            <div class="seatPrice">180Br.</div>
+          </div>
+        <div class="buttons">
+          <button class="bookButton">Book Tickets</button>
+          <button class="exitButton">Exit</button>
+        </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#gmail">millienium@info.com</a></li>
+    <ul>
+      <li><a href="#privacyPolicy">Privacy policy</a></li>
+      <li><a href="#aboutUs">About us</a></li>
+    </ul>
+  </footer>
+
+</body>
+
+</html>
+
+<script src="JS/bookingScript.js"></script>

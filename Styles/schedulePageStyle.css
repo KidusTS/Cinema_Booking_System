@@ -1,0 +1,1002 @@
+
+
+.schedule-page .layer-1 {
+  width: 46.9px;
+  height: 46.9px;
+}
+
+.schedule-page .cinema-logo {
+  margin-right: 14.6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 46.9px;
+  height: 46.9px;
+  box-sizing: border-box;
+}
+.schedule-page .millennium-cinema {
+  margin: 9.9px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #D9D9D9;
+}
+.schedule-page .logo {
+  margin: 11.6px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.schedule-page .home-1 {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #D9D9D9;
+}
+.home-1:hover{
+color: #4B39D3;
+}
+.home-1:active{
+  color: #9747FF;
+}
+.schedule-page .home {
+  margin: 27px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.schedule-page .movies-4 {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #D9D9D9;
+}
+.movies-4:hover{
+  color: #4B39D3;
+  }
+  .movies-4:active{
+    color: #9747FF;
+  }
+.schedule-page .movies-3 {
+  margin: 29px 0 25px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.schedule-page .trailers-1 {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #D9D9D9;
+}
+.trailers-1:hover{
+  color: #4B39D3;
+  }
+  .trailers-1:active{
+    color: #9747FF;
+  }
+.schedule-page .trailers {
+  margin: 30px 0 24px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.schedule-page .news-1 {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #D9D9D9;
+}
+.news-1:hover{
+  color: #4B39D3;
+  }
+  .news-1:active{
+    color: #9747FF;
+  }
+.schedule-page .news {
+  margin: 32px 0 22px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.schedule-page .vector-2 {
+  width: 40px;
+  height: 40px;
+}
+
+
+.schedule-page .wpfask-question {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: 15px 28px 15px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+
+.schedule-page .group {
+  position: absolute;
+  top: 1.7px;
+  right: -1.9px;
+  width: 40px;
+  height: 40px;
+}
+.schedule-page .icon-park-outlineshopping-cart-one {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  position: relative;
+  margin: 15px 55px 15px 0;
+  width: 40px;
+  height: 40px;
+}
+.schedule-page .ellipse-1 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 100px;
+  height: 70px;
+  border-radius: 50%;
+}
+.schedule-page .container-1 {
+  display: flex;
+  flex-direction: row;
+  width: 263px;
+  height: auto;
+  box-sizing: border-box;
+}
+.schedule-page .nav-variant-2 {
+  border: 1px solid #000000;
+  margin-bottom: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 39px 27px 21px 18.6px;
+  width: 1520px;
+  box-sizing: border-box;
+}
+.schedule-page .catagory {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #D9D9D9;
+}
+.schedule-page .frame-35 {
+  margin: 0 44.1px 45.5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.schedule-page .rectangle-81 {
+  background: #D9D9D9;
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  border-radius: 100%;
+  display: inline;
+  box-sizing:inherit;
+  
+
+ 
+}
+.schedule-page .rectangle-8 {
+  border-radius: 50px;
+  border: 1px solid #D9D9D9;
+  background: #D9D9D9;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 22px;
+  height: 26px;
+  box-sizing: border-box;
+}
+.schedule-page .categories {
+  margin: 5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #D9D9D9;
+}
+.schedule-page .adventure {
+  margin-bottom: 44px;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  box-sizing: border-box;
+}
+.schedule-page .rectangle-83 {
+  background: #D9D9D9;
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  border-radius: 100%;
+  display: inline;
+  box-sizing:inherit;
+}
+.schedule-page .rectangle-82 {
+  border-radius: 50px;
+  border: 1px solid #D9D9D9;
+  background: #D9D9D9;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 22px;
+  height: 26px;
+  box-sizing: border-box;
+}
+.schedule-page .categories-1 {
+  margin: 5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #D9D9D9;
+}
+
+.schedule-page .thriller {
+  margin: 0 25.4px 44px 0;
+  display: flex;
+  flex-direction: raw;
+  width: auto;
+  box-sizing: border-box;
+}
+.schedule-page .rectangle-85 {
+  background: #D9D9D9;
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  border-radius: 100%;
+  display: inline;
+  box-sizing:inherit;
+}
+.schedule-page .rectangle-84 {
+  border-radius: 50px;
+  border: 1px solid #D9D9D9;
+  background: #D9D9D9;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 22px;
+  height: 26px;
+  box-sizing: border-box;
+}
+.schedule-page .categories-2 {
+  margin: 5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #D9D9D9;
+}
+.schedule-page .action {
+  margin: 0 40px 45.5px 0;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  box-sizing: border-box;
+}
+.schedule-page .country {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #D9D9D9;
+}
+.schedule-page .frame-32 {
+  margin: 0 54.1px 45.5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.schedule-page .rectangle-87 {
+  background: #D9D9D9;
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  border-radius: 100%;
+  display: inline;
+  box-sizing:inherit;
+}
+.schedule-page .rectangle-86 {
+  border-radius: 50px;
+  border: 1px solid #D9D9D9;
+  background: #D9D9D9;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 22px;
+  height: 26px;
+  box-sizing: border-box;
+}
+.schedule-page .categories-3 {
+  margin: 5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #D9D9D9;
+}
+.schedule-page .american {
+  margin: 0 15.4px 44px 0;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  box-sizing: border-box;
+}
+.schedule-page .rectangle-89 {
+  background: #D9D9D9;
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  border-radius: 100%;
+  display: inline;
+  box-sizing:inherit;
+}
+.schedule-page .rectangle-88 {
+  border-radius: 50px;
+  border: 1px solid #D9D9D9;
+  background: #D9D9D9;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 22px;
+  height: 26px;
+  box-sizing: border-box;
+}
+.schedule-page .categories-4 {
+  margin: 5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #D9D9D9;
+}
+.schedule-page .ethiopian {
+  margin: 0 12.8px 44px 0;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  box-sizing: border-box;
+}
+.schedule-page .rectangle-811 {
+  background: #D9D9D9;
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  border-radius: 100%;
+  display: inline;
+  box-sizing:inherit;
+}
+.schedule-page .rectangle-810 {
+  border-radius: 50px;
+  border: 1px solid #D9D9D9;
+  background: #D9D9D9;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 22px;
+  height: 26px;
+  box-sizing: border-box;
+}
+.schedule-page .categories-5 {
+  margin: 5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #D9D9D9;
+}
+.schedule-page .others {
+  margin-right: 38.2px;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  box-sizing: border-box;
+}
+.schedule-page .frame-16 {
+  border-radius: 50px;
+  background: rgba(217, 217, 217, 0.25);
+  margin-right: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 245px;
+}
+
+
+
+.schedule-page .frame-display {
+  border-radius: 50px;
+  background: url('../Assets/ScheduleAssets/Images/frame17.png') 50%;
+  margin: 0 0 30px 19px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 199px 0 0 54px;
+  width: 914px;
+  box-sizing: border-box;
+}
+.schedule-page .ellipse-3 {
+  margin-right: 12.7px;
+  width: 24.1px;
+  height: 11px;
+}
+.schedule-page .ellipse-4 {
+  margin-right: 14px;
+  width: 24.1px;
+  height: 11px;
+}
+.schedule-page .ellipse-51 {
+  width: 24.1px;
+  height: 11px;
+}
+.schedule-page .ellipse-5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 24.1px;
+  height: 11px;
+  box-sizing: border-box;
+}
+.schedule-page .component-4 {
+  margin: 0 44px 54px 0;
+  display: flex;
+  flex-direction: row;
+  width: 99px;
+  box-sizing: border-box;
+}
+
+
+.schedule-page .container {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.schedule-page .cost {
+  margin: 10px 0px 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.schedule-page .container-5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 242.5px;
+  box-sizing: border-box;
+}
+.schedule-page .movies {
+  border-radius: 25px;
+  background: url('../Assets/ScheduleAssets/Images/movies1.png') 50% / cover no-repeat;
+  margin-right: 57px;
+  display: flex;
+  flex-direction: column;
+  width: 275px;
+  box-sizing: border-box;
+}
+.schedule-page .movies-1 {
+  border-radius: 25px;
+  background: url('../Assets/ScheduleAssets/Images/movies2.png') 50% / cover no-repeat;
+  margin-right: 57px;
+  display: flex;
+  flex-direction: column;
+  width: 275px;
+  box-sizing: border-box;
+}
+.schedule-page .play-trailer-3 {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 0;
+  border-radius: 14px;
+  background: #262CB9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 10.4px 10px 10px;
+  box-sizing: border-box;
+  
+}
+.play-trailer-3:hover{
+  cursor: pointer;
+  background-color: #4B39D3;
+}
+.play-trailer-3:active{
+  background-color: #9748FF;
+
+}
+.schedule-page .play-trailer {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 0;
+  border-radius: 14px;
+  background: #262CB9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 10.4px 10px 10px;
+  box-sizing: border-box;
+}
+.play-trailer:hover{
+  cursor: pointer;
+  background-color: #4B39D3;
+}
+.play-trailer:active{
+  background-color: #9748FF;
+
+}
+.schedule-page .play-trailer-1 {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 0;
+  border-radius: 14px;
+  background: #262CB9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 10.4px 10px 10px;
+  box-sizing: border-box;
+  margin-bottom: 295px;
+ align-self: flex-start;
+}
+.play-trailer-1:hover{
+  cursor: pointer;
+  background-color: #4B39D3;
+}
+.play-trailer-1:active{
+  background-color: #9748FF;
+
+}
+.schedule-page .play-trailer-2 {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 0;
+  border-radius: 14px;
+  background: #262CB9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 10.4px 10px 10px;
+  box-sizing: border-box;
+  margin-bottom: 295px;
+ align-self: flex-start;
+}
+.play-trailer-2:hover{
+  cursor: pointer;
+  background-color: #4B39D3;
+}
+.play-trailer-2:active{
+  background-color: #9748FF;
+
+}
+.schedule-page .play-trailer-3 {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 0;
+  border-radius: 14px;
+  background: #262CB9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 10.4px 10px 10px;
+  box-sizing: border-box;
+  margin-bottom: 295px;
+ align-self: flex-start;
+}
+.play-trailer-3:hover{
+  cursor: pointer;
+  background-color: #4B39D3;
+}
+.play-trailer-3:active{
+  background-color: #9748FF;
+
+}
+
+.schedule-page .buy-ticket {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 0;
+  border-radius: 14px;
+  background: #262CB9;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  padding: 10px 10.4px 10px 10px;
+}
+.buy-ticket:hover{
+  cursor: pointer;
+  background-color: #4B39D3;
+}
+.buy-ticket:active{
+  background-color: #9748FF;
+
+}
+.schedule-page .buy-ticket-1 {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 0;
+  border-radius: 14px;
+  background: #262CB9;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  padding: 10px 10.4px 10px 10px;
+}
+.buy-ticket-1:hover{
+  cursor: pointer;
+  background-color: #4B39D3;
+}
+.buy-ticket-1:active{
+  background-color: #9748FF;
+}
+.schedule-page .buy-ticket-2 {
+  overflow-wrap: break-word;
+ font-family: 'Outfit';
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 0.9;
+ text-transform: uppercase;
+ color: #FFFFFF;
+ background-color: transparent;
+ border: 0;
+ border-radius: 14px;
+ background: #262CB9;
+ display: flex;
+ flex-direction: row;
+ justify-content:flex-start;
+ padding: 10px 10.4px 10px 10px;
+}
+.buy-ticket-2:hover{
+ cursor: pointer;
+ background-color: #4B39D3;
+}
+.buy-ticket-2:active{
+ background-color: #9748FF;
+
+}
+.schedule-page .buy-ticket-2 {
+  overflow-wrap: break-word;
+ font-family: 'Outfit';
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 0.9;
+ text-transform: uppercase;
+ color: #FFFFFF;
+ background-color: transparent;
+ border: 0;
+ border-radius: 14px;
+ background: #262CB9;
+ display: flex;
+ flex-direction: row;
+ justify-content:flex-start;
+ padding: 10px 10.4px 10px 10px;
+}
+.buy-ticket-2:hover{
+ cursor: pointer;
+ background-color: #4B39D3;
+}
+.buy-ticket-2:active{
+ background-color: #9748FF;
+
+}
+.schedule-page .buy-ticket-3 {
+  overflow-wrap: break-word;
+ font-family: 'Outfit';
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 0.9;
+ text-transform: uppercase;
+ color: #FFFFFF;
+ background-color: transparent;
+ border: 0;
+ border-radius: 14px;
+ background: #262CB9;
+ display: flex;
+ flex-direction: row;
+ justify-content:flex-start;
+ padding: 10px 10.4px 10px 10px;
+}
+.buy-ticket-3:hover{
+ cursor: pointer;
+ background-color: #4B39D3;
+}
+.buy-ticket-3:active{
+ background-color: #9748FF;
+
+}
+a{
+  text-decoration: none;
+}
+
+  .schedule-page .container-1 {
+    overflow-wrap: break-word;
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 0.9;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+.schedule-page .cost-1 {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.schedule-page .container-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 242.5px;
+  box-sizing: border-box;
+}
+
+
+
+
+.schedule-page .container-2 {
+  overflow-wrap: break-word;
+  font-family: 'Outfit';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.schedule-page .cost-2 {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.schedule-page .container-6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 245.8px;
+  box-sizing: border-box;
+}
+.schedule-page .movies-2 {
+  border-radius: 25px;
+  background: url('../Assets/ScheduleAssets/Images/movies.png') 50% / cover no-repeat;
+  margin-right: 57px;
+  display: flex;
+  flex-direction: column;
+  width: 275px;
+  box-sizing: border-box;
+}
+.schedule-page .container {
+  display: flex;
+  flex-direction: row;
+  width:auto;
+  box-sizing: border-box;
+}
+.schedule-page .container-2 {
+  margin: 16px 0 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.schedule-page .container-3 {
+  margin: 0 40px 17px 40px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: auto;
+  box-sizing: border-box;
+}
+.schedule-page .email-inbox-mail-message-envelope-icon-1 {
+  width: 31px;
+  height: 31px;
+  border: none;
+  margin: none;
+  align-items: flex-start;
+  align-self: auto;
+}
+.schedule-page .millenniuminfo-com {
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-4-font-family, 'Outfit');
+  font-weight: var(--heading-4-font-weight, 600);
+  font-size: var(--heading-4-font-size, 24px);
+  color: #FFFFFF;
+}
+.millenniuminfo-com:hover{
+  cursor: pointer;
+  color: #4B39D3;
+ }
+ .millenniuminfo-com:active{
+  color: #9748FF;
+ 
+ }
+.schedule-page .frame-6 {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+a.privacy-policy {
+  margin-bottom: 1px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-4-font-family, 'Outfit');
+  font-weight: var(--heading-4-font-weight, 600);
+  font-size: var(--heading-4-font-size, 24px);
+  color: #FFFFFF;
+}
+.privacy-policy:hover{
+  cursor: pointer;
+  color: #4B39D3;
+ }
+ .privacy-policy:active{
+  color: #9748FF;
+ 
+ }
+a.about-us {
+  margin-bottom: 1px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-4-font-family, 'Outfit');
+  font-weight: var(--heading-4-font-weight, 600);
+  font-size: var(--heading-4-font-size, 24px);
+  color: #FFFFFF;
+}
+.about-us:hover{
+  cursor: pointer;
+  color: #4B39D3;
+ }
+ .about-us:active{
+  color: #9748FF;
+ 
+ }
+
+a.terms-conditions {
+  margin: 0 0px 1px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-4-font-family, 'Outfit');
+  font-weight: var(--heading-4-font-weight, 600);
+  font-size: var(--heading-4-font-size, 24px);
+  color: #FFFFFF;
+}
+.terms-conditions:hover{
+  cursor: pointer;
+  color: #4B39D3;
+ }
+ .terms-conditions:active{
+  color: #9748FF;
+ 
+ }
+
+.schedule-page .footer-backgroud-variant-2 {
+  background: #000000;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 34px 28.9px 68px 24px;
+  width: 1520px;
+  box-sizing: border-box;
+}
+.schedule-page {
+  background: #1E1E1E;
+  display: flex;
+  flex-direction: column;
+  width: 1520px;
+  box-sizing: border-box;
+  
+
+}
+.schedule-page .container-4 {
+  background: rgba(217, 217, 217, 0.11);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 7.1rem;
+  box-sizing: border-box;
+}
