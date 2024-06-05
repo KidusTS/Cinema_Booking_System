@@ -1,187 +1,403 @@
-<!doctype html>
+<?php
+include './CRUD/Connection.php';
+
+$qury = "select * from movie ";
+$result = mysqli_query($getConnection, $qury);
+
+?>
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Schedule Page</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="Styles/schedulePageStyle.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/schedul.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
-  <section class="schedule-page">
-    <nav class="nav-variant-2">
-      <header class="logo">
-        <section class="cinema-logo">
-          <img alt="" class="layer-1" src="Assets/ScheduleAssets/Icons/layer15_x2.svg" />
-        </section>
-        <section class="millennium-cinema">
-          Millennium Cinema
-        </section>
-      </header>
-      <section class="home">
-        <a href="index.html" class="home-1">
-          Home
-        </a>
-      </section>
-      <section class="movies-3">
-        <a href="" class="movies-4">
-          Movies
-        </a>
-      </section>
-      <section class="trailers">
-        <a href="" class="trailers-1">
-          Trailers
-        </a>
-      </section>
-      <section class="news">
-        <a href="" class="news-1">
-          News
-        </a>
-      </section>
-      <section class="container-1">
-        <a href="#" title="question" class="wpfask-question">
-          <img alt="" class="vector-2" src="Assets/ScheduleAssets/Icons/vector41_x2.svg" />
-        </a>
-        <a href="#" title="shopping-cart" class="icon-park-outlineshopping-cart-one">
-          <img alt="" class="group" src="Assets/ScheduleAssets/Icons/group_x2.svg" />
-        </a>
-        <a href="#" title="profile">
-          <img alt="" class="ellipse-1" src="Assets/ScheduleAssets/Images/ellipse1.jpeg" />
-        </a>
-      </section>
-    </nav>
-    <main class="container-3">
-      <section class="frame-16">
-        <section class="frame-35">
-          <span class="catagory">
-            Catagory
-          </span>
-        </section>
-        <section class="adventure">
-          <section class="rectangle-8">
-            <input title="Adventure" type="checkbox" class="rectangle-81">
-          </section>
-          <section class="categories">
-            Adventure
-          </section>
-        </section>
-        <section class="thriller">
-          <section class="rectangle-82">
-            <input title="Thriller" type="checkbox" class="rectangle-83">
-            </input>
-          </section>
-          <section class="categories-1">
-            Thriller
-          </section>
-        </section>
-        <section class="action">
-          <section class="rectangle-84">
-            <input title="Action" type="checkbox" class="rectangle-85">
-            </input>
-          </section>
-          <section class="categories-2">
-            Action
-          </section>
-        </section>
-        <section class="frame-32">
-          <span class="country">
-            Country
-          </span>
-        </section>
-        <section class="american">
-          <section class="rectangle-86">
-            <input title="american" type="checkbox" class="rectangle-87">
-            </input>
-          </section>
-          <section class="categories-3">
-            americAn
-          </section>
-        </section>
-        <section class="ethiopian">
-          <section class="rectangle-88">
-            <input title="ethiopian" type="checkbox" class="rectangle-89">
-            </input>
-          </section>
-          <section class="categories-4">
-            Ethiopian
-          </section>
-        </section>
-        <section class="others">
-          <section class="rectangle-810">
-            <input title="others" type="checkbox" class="rectangle-811">
-            </input>
-          </section>
-          <section class="categories-5">
-            Others
-          </section>
-        </section>
-      </section>
-      <section class="container-2">
-        <section class="frame-display">
+    <script src="https://kit.fontawesome.com/bb2c8fd3ab.js" crossorigin="anonymous"></script>
 
-          <input type="button" value="Buy Ticket" class="buy-ticket">
-          <input type="button" value="Play Trailer" class="play-trailer">
-        </section>
-        <section class="component-4">
-          <img alt="" class="ellipse-3" src="Assets/ScheduleAssets/Icons/ellipse34_x2.svg" />
-          <img alt="" class="ellipse-4" src="Assets/ScheduleAssets/Icons/ellipse43_x2.svg" />
-          <section class="ellipse-5">
-            <img alt="" class="ellipse-51" src="Assets/ScheduleAssets/Icons/ellipse52_x2.svg" />
-          </section>
-        </section>
-        <section class="container">
-          <section class="movies">
-            <input type="button" value="Play Trailer" class="play-trailer-1">
-            <section class="container-5">
-              <input type="button" value="Buy Ticket" class="buy-ticket-1">
-              <label for="cost" class="cost">180 br.</label>
+    <section class="schedule-Page">
+        <header class="header">
+            <section class="logo">
+                <section class="cinema-logo">
+                    <img title="logo" class="logoo" src="Assets/HomeAssets/Icons/layer12_x2.svg" />
+                    <section class="millennium-cinema-2">
+                        Millennium Cinema
+                    </section>
+                </section>
+
             </section>
-          </section>
-          <section class="movies-1">
-            <input type="button" value="Play Trailer" class="play-trailer-2">
-            <section class="container-5">
-              <input type="button" value="Buy Ticket" class="buy-ticket-2">
-              <label for="cost" class="cost">180 br.</label>
+            <nav class="nav">
+                <a href="schedulePage.html" class="schedule-1">
+                    Schedule
+                </a href="#">
+                <a href="bookingPage.html" class="booking-1">
+                    Booking
+                </a href="#">
+                <a href="#" class="location-1">
+                    Location
+                </a href="#">
+                <a href="#" class="contact-1">
+                    Contact
+                </a href="#">
+                <a href="#" class="sign-in">Sign In</a>
+            </nav>
+
+        </header>
+
+        <main class="main">
+
+            <section class="side">
+                <br>
+                <section class="serachbar">
+                    <input type="text" placeholder="Search..." name="" id="search">
+                </section><br>
+
+                <label for="" class="main1">Catagory </label><br>
+
+
+                <label for="Adventure"> <input type="checkbox" id="Adventure" name="Adventure"> Adventure</label><br>
+                <label for="comedy"> <input type="checkbox" id="comedy" name="comedy"> Comedy</label><br>
+                <label for="sci-fi"> <input type="checkbox" id="sci-fi" name="sci-fi"> Sci-fi</label><br>
+
+
+                <label for="Thriller"> <input type="checkbox" id="Thriller" name="Thriller"> Thriller</label><br>
+
+
+                <label for="Action"><input type="checkbox" id="Action" name="Action"> Action</label><br>
+
+
+                <label for="American"> <input type="checkbox" id="American" name="American"> American</label><br>
+
+
+                <label for="Ethiopian"><input type="checkbox" id="Ethiopian" name="Ethiopian"> Ethiopian</label><br>
+
+
+                <label for="Others"><input type="checkbox" id="Others" name="Others"> Others</label><br>
             </section>
-          </section>
-          <section class="movies-2">
-            <input type="button" value="Play Trailer" class="play-trailer-3">
-            <section class="container-5">
-              <input type="button" value="Buy Ticket" class="buy-ticket-3">
-              <label for="cost" class="cost">180 br.</label>
+            <section class="container-2">
+
+                <section class="slider">
+                    <section class="frame-display">
+                        <input type="button" value="Book Ticket" class="buy-ticket-1">
+                        <input type="button" value="Play Trailer" class="play-trailer-1">
+                    </section>
+                    <nav class="navigation">
+                    </nav>
+                </section>
+
+                <section class="container movs">
+
+                </section>
             </section>
-          </section>
+            <section class="trailer">
+                <video class="vid" controls>
+                </video>
+                <input type="button" value="Close" class="buy-ticket-1 close" onclick="toggleVideo()">
 
-        </section>
-      </section>
-    </main>
-    <footer class="footer-backgroud-variant-2">
 
-      <section class="frame-6">
-        <img alt="" class="email-inbox-mail-message-envelope-icon-1"
-          src="Assets/ScheduleAssets/Icons/emailInboxMailMessageEnvelopeIcon12_x2.svg" />
-        <a href="" class="millenniuminfo-com">
 
-          millennium@info.com
-        </a>
-      </section>
-      </a>
-      <a href="" class="privacy-policy">
-        Privacy policy
-      </a>
-      <a href="" class="about-us">
-        About Us
+        </main>
+    
+        <footer class="footer">
+            <a href="#" class="millenniuminfo-com">
+                <img title="email" class="envelope-icon-1" src="Assets/HomeAssets/Icons/emailInboxMailMessageEnvelopeIcon17_x2.svg" />
+                <section class="mil"> millennium@info.com</section>
+            </a>
 
-        <a href="" class="terms-conditions">
-          Terms &amp; conditions
-        </a>
-    </footer>
-  </section>
+            <a href="#" class="a privacy-policy">
+                Privacy policy
+            </a>
+            <a href="#" class="a about-us">
+                About Us
+            </a>
+            <a href="#" class="a terms-conditions">
+                Terms &amp; conditions
+            </a>
+        </footer>
+       
+        <script src="./JS/schedule.js">
+
+        </script>
+        <script>
+            var counter = 1;
+            var movie = [];
+            var categories = [];
+
+            <?php
+
+            if (mysqli_num_rows($result) > 0) {
+
+                while ($data = mysqli_fetch_assoc($result)) { ?>
+
+
+
+                    var conta = document.querySelector('.container')
+                    var moviesa = document.createElement('section');
+                    var inpbtntr = document.createElement('input');
+                    var cont5 = document.createElement('section');
+                    var inpbtnbt = document.createElement('input');
+                    var lblcost = document.createElement('label');
+                    var imgs = document.createElement('image');
+                    var btns = document.createElement('input');
+                    var header = document.querySelector('.header');
+                    var cont2 = document.querySelector('.container-2');
+                    var footer = document.querySelector('.footer');
+                    var playtrlr = document.querySelector('.frame-display .play-trailer-1');
+
+
+                    btns.setAttribute('type', 'button');
+                    btns.classList.add('btn');
+
+
+                    var nav = document.querySelector('.navigation');
+                    nav.appendChild(btns);
+
+
+
+
+
+                    var slider = document.querySelector(".slider");
+                    var sliders = document.querySelectorAll('.slider');
+
+                    slider.style.background = "url('../Assets/ScheduleAssets/Images/<?php echo $data['img'] ?> ') 100% / cover no-repeat";;
+                    btns.addEventListener('click', () => {
+                        sliders.forEach(a => {
+                         
+                            playtrlr.addEventListener('click', () => {
+                        {
+                            const trailer = document.querySelector('.trailer');
+                            const video = document.querySelector('.vid');
+                            trailer.classList.toggle('active');
+                            video.src = "./Assets/ScheduleAssets/trailers/<?php echo $data['trial'] ?>";
+                            video.muted = false;
+
+                            if (video.paused) {
+                                video.play();
+                                trailer.style.visibility = 'visible';
+                                trailer.style.opacity = '1';
+                            } else {
+                                video.pause();
+                                trailer.style.visibility = 'hidden';
+                                trailer.style.opacity = '0';
+
+                            }
+                            console.log(video.paused);
+                        }
+                    })
+                        });
+                        slider.classList.add('active');
+                        slider.style.background = "url('../Assets/ScheduleAssets/Images/<?php echo $data['img'] ?> ') 100% / cover no-repeat";;
+                      
+                        
+                        
+                        
+                        
+
+                    })
+                    playtrlr.addEventListener('click', () => {
+                        {
+                            const trailer = document.querySelector('.trailer');
+                            const video = document.querySelector('.vid');
+                            trailer.classList.toggle('active');
+                            video.src = "./Assets/ScheduleAssets/trailers/<?php echo $data['trial'] ?>";
+                            video.muted = false;
+
+
+                            if (video.paused) {
+                                video.play();
+                                trailer.style.visibility = 'visible';
+                                trailer.style.opacity = '1';
+                            } else {
+                                video.pause();
+                                trailer.style.visibility = 'hidden';
+                                trailer.style.opacity = '0';
+
+                            }
+                            console.log(video.paused);
+                        }
+                    })
+                    var bttn = document.querySelectorAll('.btn');
+
+                    bttn.forEach(a => {
+
+                        a.addEventListener('click', () => {
+                            bttn.forEach(a => {
+                                a.style.background = ''
+                                a.classList.remove('active');
+                            });
+
+
+                            a.classList.add('active');
+                            a.style.background = '#262cb9'
+                            slider.classList.add('active')
+
+                        });
+                        
+                    });
+
+
+
+                    moviesa.setAttribute('catagory', '<?php echo $data['category'] ?>');
+                    moviesa.setAttribute('title', '<?php echo $data['title'] ?>');
+                    moviesa.setAttribute('releasedate', '<?php echo $data['release_date'] ?>');
+                    moviesa.setAttribute('runtime', '<?php echo $data['runtime'] ?>');
+                    moviesa.setAttribute('country', '<?php echo $data['country'] ?>');
+                    moviesa.classList.add("movies");
+
+                    moviesa.style.background = "url('../Assets/ScheduleAssets/Images/<?php echo $data['img'] ?>') 100% / cover no-repeat";
+                    var back = document.querySelector(".schedule-Page");
+                    // back.style.background = "url('../Assets/ScheduleAssets/Images/<?php echo $data['img'] ?>') 100% / cover no-repeat";
+
+                    moviesa.addEventListener('click', () => {
+
+                        back.style.background = "url('../Assets/ScheduleAssets/Images/<?php echo $data['img'] ?>') 100% / cover no-repeat";
+                        header.style.background = 'rgba(0, 0, 0, 0.8);'
+
+                        cont2.style.background = ' rgba(0, 0, 0, 0.8);'
+                        footer.style.background = ' rgba(0, 0, 0, 0.8);'
+                        console.log("click");
+
+
+                    })
+                    inpbtntr.value = "Play Trailer";
+                    inpbtntr.classList.add("play-trailer-1");
+                    inpbtntr.addEventListener('click', () => {
+                        {
+                            const trailer = document.querySelector('.trailer');
+                            const video = document.querySelector('.vid');
+                            trailer.classList.toggle('active');
+                            video.src = "./Assets/ScheduleAssets/trailers/<?php echo $data['trial'] ?>";
+                            video.muted = false;
+
+                            if (video.paused) {
+                                video.play();
+                                trailer.style.visibility = 'visible';
+                                trailer.style.opacity = '1';
+                            } else {
+                                video.pause();
+                                trailer.style.visibility = 'hidden';
+                                trailer.style.opacity = '0';
+
+                            }
+                            console.log(video.paused);
+                        }
+                    })
+                   
+                    inpbtntr.setAttribute('type', 'button');
+                    moviesa.appendChild(inpbtntr);
+                    cont5.classList.add("container-5");
+                    moviesa.appendChild(cont5);
+                    inpbtnbt.value = "Book Ticket";
+                    inpbtnbt.classList.add("buy-ticket-1");
+                    inpbtnbt.setAttribute('type', 'button');
+                    cont5.appendChild(inpbtnbt);
+                    lblcost.classList.add('cost')
+                   
+                    console.log(lblcost);
+                   
+                    conta.appendChild(moviesa);
+                    // console.log(conta);
+
+
+                    movie.push([{
+                        id: "<?php echo $data['id'] ?>",
+                        title: "<?php echo $data['title'] ?>",
+                        release_date: "<?php echo $data['release_date'] ?>",
+                        catagory: "<?php echo $data['category'] ?>",
+                        runtime: "<?php echo $data['runtime'] ?>",
+                        img: "<?php echo $data['img'] ?>",
+                        trial: "<?php echo $data['trial'] ?>",
+                    }]);
+
+            <?php }
+            } ?>
+
+            var btns = document.querySelectorAll('.btn');
+            setInterval(function() {
+                if (btns.length >= counter) {
+                    btns[counter - 1].click();
+                    counter++
+                } else if (counter > btns.length) {
+                    counter = 1;
+                }
+
+
+            }, 5000)
+
+
+
+
+
+            var z = movie.map(a => a[0])
+            var filtred;
+            var mov = document.querySelectorAll('.movies');
+            var moviesa = document.querySelectorAll('.movies');
+
+            document.querySelector('.serachbar').addEventListener('keyup', (e) => {
+                const searchData = e.target.value.toLowerCase();
+
+                filtred = z.filter(a => a.title.toLowerCase().includes(searchData));
+                for (var i = 0; i < mov.length; i++) {
+                    let title = moviesa[i].getAttribute('title');
+                    let runtime = moviesa[i].getAttribute('runtime');
+                    let release_date = moviesa[i].getAttribute('releasedate');
+                    let category = moviesa[i].getAttribute('catagory');
+                    let country = moviesa[i].getAttribute('country');
+
+                    if ((title.toLowerCase().indexOf(searchData) > -1) || (country.toLowerCase().indexOf(searchData) > -1) || (category.toLowerCase().indexOf(searchData) > -1)) {
+                        moviesa[i].style.display = "";
+                    } else {
+                        moviesa[i].style.display = "none";
+                    }
+                }
+
+
+
+            })
+
+
+
+
+
+
+            var searchData2 = []
+            var checkbox = document.querySelectorAll('[type="checkbox"]');
+            checkbox.forEach(a => {
+                a.addEventListener("change", function(e) {
+                    searchData2 = e.target.getAttribute('name').toLowerCase();
+                    var moviesa = document.querySelectorAll('.movies');
+                    var mov = document.querySelectorAll('.movies');
+                    for (var i = 0; i < mov.length; i++) {
+                        let category = moviesa[i].getAttribute('catagory');
+                        let country = moviesa[i].getAttribute('country');
+
+                        if (this.checked) {
+                            if (((category.toLowerCase().indexOf(searchData2) > -1) || (country.toLowerCase().indexOf(searchData2) > -1))) {
+                                moviesa[i].style.display = "";
+
+                            } else {
+                                moviesa[i].style.display = "none";
+
+                            }
+                        } else {
+                            moviesa[i].style.display = "";
+
+                        }
+                    }
+                })
+
+            })
+
+
+
+            console.log(movie);
+        </script>
+    </section>
 </body>
 
 </html>
